@@ -26,3 +26,63 @@
 @media (max-width: 900px){
   .mexico-map-card{grid-template-columns:1fr}
 }
+
+
+/* Ajustes extra para teléfono */
+@media (max-width: 640px){
+  body{font-size:16px}
+  .topbar{display:none}
+  .site-header{position:sticky}
+  .header-inner{padding:.75rem 0;flex-direction:row;align-items:center}
+  .menu-toggle{margin-left:auto}
+  .main-nav{max-height:80vh;overflow:auto}
+  .hero-grid{padding:3.2rem 0 3.6rem;gap:1.2rem}
+  .hero-copy h1{font-size:2.15rem;line-height:1.02}
+  .hero-copy p,.section p,.program-body p,.projects-copy p{font-size:1rem;line-height:1.65}
+  .eyebrow,.section-tag{font-size:.72rem;padding:.48rem .75rem}
+  .stats-row article,.impact-grid article,.benefit-grid article,.program-card,.state-card,.quote-card,.module-card,.fancy-panel{border-radius:20px}
+  .hero-brand-card{padding:1.15rem;border-radius:24px}
+  .hero-brand-top{align-items:flex-start}
+  .hero-brand-top img{width:74px;height:74px}
+  .hero-brand-top h2{font-size:1.5rem}
+  .hero-feature-grid div{padding:.9rem}
+  .impact-strip{margin-top:-16px}
+  .impact-grid article{padding:1rem}
+  .section{padding:3.4rem 0}
+  .section-heading{margin-bottom:1.5rem}
+  .filter-bar{justify-content:flex-start;overflow:auto;flex-wrap:nowrap;padding-bottom:.35rem}
+  .filter-btn{white-space:nowrap}
+  .program-cover img{aspect-ratio:4/3}
+  .program-body{padding:1rem}
+  .mini-includes{gap:.45rem}
+  .mini-includes span{font-size:.78rem}
+  .projects-showcase,.split-highlight,.contact-layout,.course-layout,.course-detail-grid,.mexico-map-card{gap:1rem}
+  .projects-panel,.cta-ribbon-inner{padding:1.2rem;border-radius:22px}
+  .projects-panel h3{font-size:1.55rem}
+  .project-mini-grid span{padding:.7rem;font-size:.92rem}
+  .mexico-map-card{padding:1rem;border-radius:22px}
+  .mexico-map{padding:.25rem;border-radius:18px}
+  .state-label{font-size:13px}
+  .map-list{justify-content:flex-start}
+  .map-list span{padding:.7rem .9rem;font-size:.88rem}
+  .state-card div{padding:1rem}
+  .state-card h3{font-size:1.05rem}
+  .testimonial-grid.luxe{gap:.9rem}
+  .cta-ribbon-inner h2{font-size:1.7rem}
+  .footer-grid{padding:2.2rem 0 1.4rem;gap:1rem}
+  .footer-brand{align-items:flex-start}
+  .footer-brand img{width:58px}
+  .floating-wa{width:58px;height:58px;right:14px;bottom:14px}
+  .floating-wa img{width:30px;height:30px}
+  .course-hero-detail{padding:3.6rem 0}
+  .detail-cover img{aspect-ratio:4/3}
+}
+
+@media (max-width: 420px){
+  .container{width:min(100% - .8rem,100%)}
+  .hero-copy h1{font-size:1.9rem}
+  .hero-actions .btn{padding:.92rem 1rem;font-size:.92rem}
+  .brand span{font-size:1.05rem}
+  .filter-btn{padding:.72rem .9rem}
+  .state-label{font-size:12px}
+}

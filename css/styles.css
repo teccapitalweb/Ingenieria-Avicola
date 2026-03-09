@@ -265,3 +265,10 @@ small{color:var(--muted)}
   border:1px solid #dbeaf3;
   box-shadow:0 12px 24px rgba(13,78,134,.08);
 }
+
+
+/* Pulido general de texto */
+.section h2{letter-spacing:-.02em}
+.program-body h3,.projects-copy h2,.section h2,.page-hero h1,.course-hero-detail h1{text-wrap:balance}
+.program-body p,.projects-copy p,.section p,.quote-card p{max-width:70ch}
+.check-list li{line-height:1.65}
