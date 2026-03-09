@@ -22,3 +22,7 @@
   .hero-actions,.program-actions{width:100%}
   .hero-actions .btn,.program-actions .btn{width:100%}
 }
+
+@media (max-width: 900px){
+  .mexico-map-card{grid-template-columns:1fr}
+}

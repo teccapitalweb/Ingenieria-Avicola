@@ -213,3 +213,55 @@ small{color:var(--muted)}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:1rem 0 1.5rem;font-size:.92rem}
 .floating-wa{position:fixed;right:18px;bottom:18px;width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff;box-shadow:var(--shadow);z-index:90}
 .floating-wa img{width:34px;height:34px}
+
+
+/* Mejoras de contraste y mapa */
+.projects-panel p{color:#f2fbff !important}
+.projects-panel h3{color:#ffffff}
+.projects-copy h2,.projects-copy p,.projects-copy li{color:#193047}
+.projects-copy .check-list li{font-weight:600}
+
+.mexico-map-card{
+  grid-template-columns:1.35fr .65fr;
+  align-items:center;
+  background:linear-gradient(180deg,#ffffff,#f7fbff);
+  border:1px solid #ddebf5;
+  padding:1.6rem;
+}
+.mexico-map{
+  background:linear-gradient(180deg,#f8fcff,#eef7fb);
+  border-radius:26px;
+  padding:1rem;
+}
+.mx-base{
+  fill:#d9edf6;
+  stroke:#78b8ce;
+  stroke-width:7;
+}
+.map-state{filter:drop-shadow(0 8px 14px rgba(13,78,134,.12))}
+.state-line{
+  stroke:#0ea5b9;
+  stroke-width:3.5;
+  stroke-dasharray:5 6;
+}
+.state-dot{
+  fill:#11b5b2;
+  stroke:#ffffff;
+  stroke-width:5;
+}
+.state-tag{
+  fill:#ffffff;
+  stroke:#cfe4ef;
+  stroke-width:2;
+}
+.state-label{
+  font:800 16px "Poppins",sans-serif;
+  fill:#0d4e86;
+  text-anchor:middle;
+  dominant-baseline:middle;
+}
+.map-list span{
+  background:#ffffff;
+  border:1px solid #dbeaf3;
+  box-shadow:0 12px 24px rgba(13,78,134,.08);
+}
