@@ -29,6 +29,7 @@
         </div>
       </a>
       <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="menu-overlay"></div>
       <nav class="main-nav">
         <a href="../index.html">Inicio</a>
         <a href="../pages/cursos.html">Cursos</a>
@@ -58,16 +59,21 @@
       <h2>Explora el catálogo</h2>
       <p>Revisa beneficios, detalles y solicita informes fácilmente.</p>
     </div>
-    <div class="filter-bar">
+    <div class="course-tools">
+      <div class="search-wrap">
+        <input id="courseSearch" type="text" placeholder="Buscar curso...">
+      </div>
+      <div class="filter-bar">
       <button class="filter-btn active" data-filter="all">Todos</button>
       <button class="filter-btn" data-filter="produccion">Producción</button>
       <button class="filter-btn" data-filter="bioseguridad">Bioseguridad</button>
       <button class="filter-btn" data-filter="administracion">Administración</button>
       <button class="filter-btn" data-filter="presencial">Presencial</button>
     </div>
+    </div>
     <div class="program-grid" id="programGrid">
       
-      <article class="program-card" data-category="produccion en línea">
+      <article class="program-card reveal" data-category="produccion en línea"
         <div class="program-cover">
           <img src="../assets/img/cursos/curso-gallinas-libre-jaula.jpg" alt="Manejo de gallinas de postura libre de jaula">
           <span class="course-mode mode-live">En línea</span>
@@ -82,12 +88,12 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="curso-postura-libre-jaula.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20este%20curso." target="_blank" rel="noopener" class="btn btn-sm btn-secondary wa-course">Solicitar informes</a>
           </div>
         </div>
       </article>
 
-      <article class="program-card" data-category="administracion en línea">
+      <article class="program-card reveal" data-category="administracion en línea"
         <div class="program-cover">
           <img src="../assets/img/cursos/curso-administracion-avicola.jpg" alt="Administración avícola y crianza técnica">
           <span class="course-mode mode-live">En línea</span>
@@ -102,12 +108,12 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="curso-administracion-avicola.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20este%20curso." target="_blank" rel="noopener" class="btn btn-sm btn-secondary wa-course">Solicitar informes</a>
           </div>
         </div>
       </article>
 
-      <article class="program-card" data-category="especializado en línea">
+      <article class="program-card reveal" data-category="especializado en línea"
         <div class="program-cover">
           <img src="../assets/img/cursos/curso-sexaje-pollitas.jpg" alt="Técnicas de sexaje en pollitas">
           <span class="course-mode mode-live">En línea</span>
@@ -122,12 +128,12 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="curso-sexaje-pollitas.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20este%20curso." target="_blank" rel="noopener" class="btn btn-sm btn-secondary wa-course">Solicitar informes</a>
           </div>
         </div>
       </article>
 
-      <article class="program-card" data-category="produccion en línea">
+      <article class="program-card reveal" data-category="produccion en línea"
         <div class="program-cover">
           <img src="../assets/img/cursos/curso-produccion-postura.jpg" alt="Producción y manejo técnico de gallinas de postura">
           <span class="course-mode mode-live">En línea</span>
@@ -142,12 +148,12 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="curso-produccion-postura.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20este%20curso." target="_blank" rel="noopener" class="btn btn-sm btn-secondary wa-course">Solicitar informes</a>
           </div>
         </div>
       </article>
 
-      <article class="program-card" data-category="bioseguridad en línea">
+      <article class="program-card reveal" data-category="bioseguridad en línea"
         <div class="program-cover">
           <img src="../assets/img/cursos/curso-bioseguridad-avicola.jpg" alt="Bioseguridad avícola y control de enfermedades">
           <span class="course-mode mode-live">En línea</span>
@@ -162,12 +168,12 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="curso-bioseguridad-avicola.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20este%20curso." target="_blank" rel="noopener" class="btn btn-sm btn-secondary wa-course">Solicitar informes</a>
           </div>
         </div>
       </article>
 
-      <article class="program-card" data-category="presencial presencial">
+      <article class="program-card reveal" data-category="presencial presencial"
         <div class="program-cover">
           <img src="../assets/img/cursos/curso-traspatio-presencial.jpg" alt="Manejo de gallinas de postura de traspatio">
           <span class="course-mode mode-presential">Presencial</span>
@@ -182,7 +188,7 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="curso-traspatio-presencial.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20este%20curso." target="_blank" rel="noopener" class="btn btn-sm btn-secondary wa-course">Solicitar informes</a>
           </div>
         </div>
       </article>
@@ -240,6 +246,30 @@
   </div>
 </section>
 
+  
+<section class="section reveal">
+  <div class="container">
+    <div class="section-heading">
+      <span class="section-tag">Preguntas frecuentes</span>
+      <h2>Información antes de inscribirte</h2>
+    </div>
+    <div class="faq-list">
+      <article class="faq-item">
+        <button class="faq-question">¿Los cursos incluyen grupo de WhatsApp?<span>+</span></button>
+        <div class="faq-answer"><p>Sí, varios programas integran grupo privado de WhatsApp para compartir información y resolver dudas.</p></div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question">¿Hay clases en vivo y material de apoyo?<span>+</span></button>
+        <div class="faq-answer"><p>Sí, según el curso podrás acceder a clases en vivo, materiales complementarios y recursos digitales.</p></div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question">¿Puedo pedir informes sin ver precios en la página?<span>+</span></button>
+        <div class="faq-answer"><p>Sí. La página está diseñada para que solicites informes directamente y recibas atención personalizada.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
@@ -280,5 +310,9 @@
     <img src="../assets/img/iconos/whatsapp.svg" alt="WhatsApp">
   </a>
   <script src="../js/script.js"></script>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Cerrar">×</button><img src="" alt=""></div>
 </body>
 </html>

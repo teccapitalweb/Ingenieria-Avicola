@@ -29,6 +29,7 @@
         </div>
       </a>
       <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="menu-overlay"></div>
       <nav class="main-nav">
         <a href="../index.html">Inicio</a>
         <a href="../pages/cursos.html">Cursos</a>
@@ -37,7 +38,7 @@
         <a href="../pages/galeria.html">Galería</a>
         <a href="../pages/nosotros.html">Nosotros</a>
         <a href="../pages/contacto.html">Contacto</a>
-        <a class="btn btn-sm pulse-btn" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar información</a>
+        <a class="btn btn-sm pulse-btn" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20Manejo%20de%20gallinas%20de%20postura%20de%20traspatio" target="_blank" rel="noopener">Solicitar información</a>
       </nav>
     </div>
   </header>
@@ -55,7 +56,7 @@
         <span>Certificado con QR y folio</span>
       </div>
       <div class="hero-actions">
-        <a class="btn" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+        <a class="btn" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20Manejo%20de%20gallinas%20de%20postura%20de%20traspatio" target="_blank" rel="noopener">Solicitar informes</a>
         <a class="btn btn-secondary" href="cursos.html">Volver al catálogo</a>
       </div>
     </div>
@@ -65,30 +66,39 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container course-layout">
-    <div>
-      <div class="section-heading left">
-        <span class="section-tag">Temario</span>
-        <h2>Lo que verá el participante</h2>
+
+<section class="section reveal">
+  <div class="container">
+    <div class="tabs-wrap">
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="temario">Temario</button>
+        <button class="tab-btn" data-tab="incluye">Incluye</button>
+        <button class="tab-btn" data-tab="dirigido">Dirigido a</button>
       </div>
-      <div class="module-grid"><article class='module-card'><h3>Módulo 1</h3><p>Bases de un proyecto de traspatio</p></article><article class='module-card'><h3>Módulo 2</h3><p>Manejo diario y alimentación</p></article><article class='module-card'><h3>Módulo 3</h3><p>Sanidad y bioseguridad básica</p></article><article class='module-card'><h3>Módulo 4</h3><p>Producción y aprovechamiento</p></article><article class='module-card'><h3>Módulo 5</h3><p>Errores frecuentes en pequeña escala</p></article></div>
-    </div>
-    <aside class="detail-sidebar fancy-panel">
-      <h3>Este curso incluye</h3>
-      <ul class="include-list"><li>Sesión presencial</li><li>Grupo de WhatsApp</li><li>Certificado con QR y folio</li><li>Material de apoyo</li><li>Enfoque práctico y técnico</li></ul>
-      <h3>Dirigido a</h3>
-      <ul class="include-list">
+      <div class="tab-panel active" data-panel="temario">
+        <div class="module-grid"><article class='module-card'><h3>Módulo 1</h3><p>Bases de un proyecto de traspatio</p></article><article class='module-card'><h3>Módulo 2</h3><p>Manejo diario y alimentación</p></article><article class='module-card'><h3>Módulo 3</h3><p>Sanidad y bioseguridad básica</p></article><article class='module-card'><h3>Módulo 4</h3><p>Producción y aprovechamiento</p></article><article class='module-card'><h3>Módulo 5</h3><p>Errores frecuentes en pequeña escala</p></article></div>
+      </div>
+      <div class="tab-panel" data-panel="incluye">
+        <div class="fancy-panel">
+          <ul class="include-list"><li>Sesión presencial</li><li>Grupo de WhatsApp</li><li>Certificado con QR y folio</li><li>Material de apoyo</li><li>Enfoque práctico y técnico</li></ul>
+        </div>
+      </div>
+      <div class="tab-panel" data-panel="dirigido">
+        <div class="fancy-panel">
+          <ul class="include-list">
         <li>Productores avícolas</li>
         <li>Emprendedores</li>
         <li>Estudiantes</li>
         <li>Personas interesadas en iniciar o mejorar su proyecto</li>
       </ul>
-    </aside>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="section section-alt">
+
+<section class="section section-alt reveal">
   <div class="container">
     <div class="section-heading">
       <span class="section-tag">Más programas</span>
@@ -134,9 +144,13 @@
       <p>© 2026 Ingeniería Avícola. Todos los derechos reservados.</p>
     </div>
   </footer>
-  <a class="floating-wa" href="https://wa.me/522361138979" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <a class="floating-wa" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20curso%20Manejo%20de%20gallinas%20de%20postura%20de%20traspatio" target="_blank" rel="noopener" aria-label="WhatsApp">
     <img src="../assets/img/iconos/whatsapp.svg" alt="WhatsApp">
   </a>
   <script src="../js/script.js"></script>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Cerrar">×</button><img src="" alt=""></div>
 </body>
 </html>

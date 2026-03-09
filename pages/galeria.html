@@ -22,13 +22,14 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="../index.html">
-        <img src="../assets/img/logo/logo-ingenieria-avicola.png" alt="Logo Ingeniería Avícola">
+        <img class="lightbox-image" src="../assets/img/logo/logo-ingenieria-avicola.png" alt="Logo Ingeniería Avícola">
         <div class="brand-copy">
           <span>Ingeniería Avícola</span>
           <small>Capacitación, cursos y proyectos avícolas</small>
         </div>
       </a>
       <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="menu-overlay"></div>
       <nav class="main-nav">
         <a href="../index.html">Inicio</a>
         <a href="../pages/cursos.html">Cursos</a>
@@ -47,12 +48,12 @@
 <section class="section">
   <div class="container">
     <div class="state-gallery-grid">
-      <article class="state-card"><img src="../assets/img/galeria/galeria-1.jpg" alt="Puebla"><div><h3>Puebla</h3><p>Capacitaciones presenciales y actividades de formación.</p></div></article>
-      <article class="state-card"><img src="../assets/img/galeria/galeria-2.jpg" alt="Veracruz"><div><h3>Veracruz</h3><p>Experiencia de campo y programas de capacitación.</p></div></article>
-      <article class="state-card"><img src="../assets/img/galeria/galeria-3.jpg" alt="Oaxaca"><div><h3>Oaxaca</h3><p>Formación especializada y presencia regional.</p></div></article>
-      <article class="state-card"><img src="../assets/img/galeria/galeria-4.jpg" alt="Hidalgo"><div><h3>Hidalgo</h3><p>Cursos y actividades con enfoque técnico.</p></div></article>
-      <article class="state-card"><img src="../assets/img/galeria/galeria-5.jpg" alt="Morelos"><div><h3>Morelos</h3><p>Capacitación para productores y emprendedores.</p></div></article>
-      <article class="state-card"><img src="../assets/img/galeria/galeria-6.jpg" alt="Tabasco"><div><h3>Tabasco</h3><p>Capacitación avícola y presencia en distintas regiones.</p></div></article>
+      <article class="state-card reveal"><img class="lightbox-image" src="../assets/img/galeria/galeria-1.jpg" alt="Puebla"><div><h3>Puebla</h3><p>Capacitaciones presenciales y actividades de formación.</p></div></article>
+      <article class="state-card reveal"><img class="lightbox-image" src="../assets/img/galeria/galeria-2.jpg" alt="Veracruz"><div><h3>Veracruz</h3><p>Experiencia de campo y programas de capacitación.</p></div></article>
+      <article class="state-card reveal"><img class="lightbox-image" src="../assets/img/galeria/galeria-3.jpg" alt="Oaxaca"><div><h3>Oaxaca</h3><p>Formación especializada y presencia regional.</p></div></article>
+      <article class="state-card reveal"><img class="lightbox-image" src="../assets/img/galeria/galeria-4.jpg" alt="Hidalgo"><div><h3>Hidalgo</h3><p>Cursos y actividades con enfoque técnico.</p></div></article>
+      <article class="state-card reveal"><img class="lightbox-image" src="../assets/img/galeria/galeria-5.jpg" alt="Morelos"><div><h3>Morelos</h3><p>Capacitación para productores y emprendedores.</p></div></article>
+      <article class="state-card reveal"><img class="lightbox-image" src="../assets/img/galeria/galeria-6.jpg" alt="Tabasco"><div><h3>Tabasco</h3><p>Capacitación avícola y presencia en distintas regiones.</p></div></article>
     </div>
   </div>
 </section>
@@ -62,7 +63,7 @@
     <div class="container footer-grid">
       <div>
         <div class="footer-brand">
-          <img src="../assets/img/logo/logo-ingenieria-avicola.png" alt="Logo Ingeniería Avícola">
+          <img class="lightbox-image" src="../assets/img/logo/logo-ingenieria-avicola.png" alt="Logo Ingeniería Avícola">
           <div>
             <h3>Ingeniería Avícola</h3>
             <p>Capacitación técnica, cursos especializados y proyectos avícolas con presencia nacional.</p>
@@ -94,8 +95,12 @@
     </div>
   </footer>
   <a class="floating-wa" href="https://wa.me/522361138979" target="_blank" rel="noopener" aria-label="WhatsApp">
-    <img src="../assets/img/iconos/whatsapp.svg" alt="WhatsApp">
+    <img class="lightbox-image" src="../assets/img/iconos/whatsapp.svg" alt="WhatsApp">
   </a>
   <script src="../js/script.js"></script>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Cerrar">×</button><img src="" alt=""></div>
 </body>
 </html>
