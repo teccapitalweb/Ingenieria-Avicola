@@ -1,3 +1,24 @@
-@media (max-width: 1080px){.hero-content,.authority-layout,.projects-layout,.two-col,.contact-layout{grid-template-columns:1fr}.course-grid,.card-grid.three,.testimonial-grid,.gallery-grid,.trust-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
-@media (max-width: 860px){.menu-toggle{display:block}.main-nav{position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid #e5e7eb;padding:1rem;display:none;flex-direction:column;align-items:flex-start}.main-nav.is-open{display:flex}.topbar-inner{flex-direction:column;align-items:flex-start}.hero{min-height:auto}.hero-content{padding:4rem 0}.hero h1{max-width:none}.brand span{font-size:1.15rem}.brand img{width:58px;height:58px}.cta-box{flex-direction:column;align-items:flex-start}}
-@media (max-width: 640px){.container{width:min(100% - 1.2rem, 100%)}.course-grid,.card-grid.three,.card-grid.two,.testimonial-grid,.gallery-grid,.trust-grid,.hero-stats,.projects-metrics,.footer-grid,.form-row{grid-template-columns:1fr}.hero-content{gap:1.5rem}.hero-visual-card{padding:1.4rem}.trust-grid{margin-top:-24px;padding:.8rem}.section{padding:4rem 0}.topbar{font-size:.85rem}.header-inner{padding:.8rem 0}.brand small{display:none}.floating-wa{width:56px;height:56px}}
+
+@media (max-width:1080px){
+  .hero-grid,.split-highlight,.projects-showcase,.course-detail-grid,.course-layout,.contact-layout,.mexico-map-card{grid-template-columns:1fr}
+  .program-grid,.compact-grid,.state-gallery-grid,.benefit-grid,.testimonial-grid.luxe,.footer-grid,.impact-grid,.stats-row,.hero-feature-grid,.related-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:860px){
+  .menu-toggle{display:block}
+  .main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;padding:1rem;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e7eef5}
+  .main-nav.is-open{display:flex}
+  .topbar-inner{flex-direction:column;align-items:flex-start}
+  .hero-grid{padding:4rem 0 4.5rem}
+}
+@media (max-width:640px){
+  .container{width:min(100% - 1rem,100%)}
+  .program-grid,.compact-grid,.state-gallery-grid,.benefit-grid,.testimonial-grid.luxe,.footer-grid,.impact-grid,.stats-row,.hero-feature-grid,.related-grid,.module-grid,.form-row{grid-template-columns:1fr}
+  .hero-copy h1{font-size:2.4rem}
+  .section,.page-hero,.course-hero-detail{padding:4rem 0}
+  .hero-card-stack{flex-direction:column}
+  .cta-ribbon-inner,.header-inner{flex-direction:column;align-items:flex-start}
+  .brand img{width:60px;height:60px}
+  .brand small{display:none}
+  .hero-actions,.program-actions{width:100%}
+  .hero-actions .btn,.program-actions .btn{width:100%}
+}
