@@ -330,3 +330,203 @@ small{color:var(--muted)}
 .hero-badges span,.mini-includes span,.coverage-tags span,.map-list span{text-wrap:nowrap}
 .highlight-grid article p,.benefit-grid article p,.state-card p,.quote-card p{font-size:.97rem}
 .projects-copy p,.section-heading p{max-width:60ch}
+
+
+/* NUEVO HERO MODERNO */
+
+.hero-modern{
+background:linear-gradient(135deg,#0d4e86,#0aa7a6);
+color:white;
+padding:90px 0;
+}
+
+.hero-modern-grid{
+display:grid;
+grid-template-columns:1.2fr .8fr;
+gap:40px;
+align-items:center;
+}
+
+.hero-kicker{
+display:inline-block;
+background:rgba(255,255,255,.15);
+padding:8px 14px;
+border-radius:30px;
+font-weight:600;
+margin-bottom:18px;
+}
+
+.hero-modern h1{
+font-size:46px;
+line-height:1.1;
+margin-bottom:18px;
+}
+
+.hero-sub{
+opacity:.9;
+margin-bottom:30px;
+max-width:520px;
+}
+
+.hero-stats{
+display:flex;
+gap:30px;
+margin-bottom:30px;
+}
+
+.stat strong{
+font-size:32px;
+display:block;
+}
+
+.stat span{
+font-size:14px;
+opacity:.9;
+}
+
+.hero-card{
+background:white;
+color:#1f2937;
+padding:28px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.hero-card h3{
+margin-bottom:12px;
+}
+
+.hero-list{
+list-style:none;
+padding:0;
+}
+
+.hero-list li{
+padding:6px 0;
+border-bottom:1px solid #eee;
+}
+
+/* responsive */
+
+@media (max-width:900px){
+
+.hero-modern-grid{
+grid-template-columns:1fr;
+}
+
+.hero-modern h1{
+font-size:34px;
+}
+
+.hero-stats{
+gap:20px;
+}
+
+}
+
+
+/* HERO MÁS IMPACTANTE Y CORTO */
+
+.hero-impact{
+background:linear-gradient(135deg,#0d4e86,#0aa7a6);
+color:white;
+padding:70px 0;
+}
+
+.hero-impact-grid{
+display:grid;
+grid-template-columns:1.2fr .8fr;
+gap:40px;
+align-items:center;
+}
+
+.hero-impact h1{
+font-size:44px;
+line-height:1.1;
+margin-bottom:14px;
+}
+
+.accent{
+color:#7cf3e6;
+}
+
+.hero-sub{
+max-width:420px;
+opacity:.9;
+margin-bottom:24px;
+}
+
+.hero-impact-right{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.stat-box{
+background:white;
+color:#1f2937;
+padding:22px;
+border-radius:16px;
+text-align:center;
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.stat-box strong{
+font-size:36px;
+display:block;
+}
+
+/* MAPA RESPONSIVE */
+
+.real-map-card img{
+width:100%;
+max-height:420px;
+object-fit:contain;
+}
+
+/* MOBILE */
+
+@media (max-width:900px){
+
+.hero-impact-grid{
+grid-template-columns:1fr;
+}
+
+.hero-impact h1{
+font-size:32px;
+}
+
+.hero-impact-right{
+flex-direction:row;
+}
+
+.stat-box{
+flex:1;
+padding:16px;
+}
+
+.real-map-card img{
+max-height:260px;
+}
+
+}
+
+@media (max-width:480px){
+
+.hero-impact{
+padding:50px 0;
+}
+
+.hero-impact h1{
+font-size:28px;
+}
+
+.hero-sub{
+font-size:14px;
+}
+
+.real-map-card img{
+max-height:220px;
+}
+
+}
