@@ -86,3 +86,17 @@
   .filter-btn{padding:.72rem .9rem}
   .state-label{font-size:12px}
 }
+
+@media (max-width: 900px){
+  .real-map-layout{grid-template-columns:1fr}
+}
+@media (max-width: 640px){
+  .real-map-card,.coverage-side{border-radius:22px}
+  .coverage-side{padding:1.15rem}
+  .coverage-side h3{font-size:1.45rem}
+  .coverage-tags{gap:.55rem}
+  .coverage-tags span{padding:.62rem .82rem;font-size:.84rem}
+  .real-map-card img{aspect-ratio:4/3}
+  .stats-row article span{font-size:.88rem}
+  .benefit-grid article,.highlight-grid article{padding:1rem}
+}

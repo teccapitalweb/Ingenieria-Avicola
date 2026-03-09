@@ -272,3 +272,61 @@ small{color:var(--muted)}
 .program-body h3,.projects-copy h2,.section h2,.page-hero h1,.course-hero-detail h1{text-wrap:balance}
 .program-body p,.projects-copy p,.section p,.quote-card p{max-width:70ch}
 .check-list li{line-height:1.65}
+
+
+/* Mapa real y bloques más visuales */
+.real-map-layout{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:1.4rem;
+  align-items:center;
+}
+.real-map-card{
+  background:#fff;
+  border-radius:30px;
+  padding:1rem;
+  box-shadow:var(--shadow);
+  border:1px solid #e2edf5;
+}
+.real-map-card img{
+  width:100%;
+  border-radius:22px;
+  aspect-ratio:16/10;
+  object-fit:cover;
+}
+.coverage-side{
+  background:linear-gradient(135deg,#0d4e86,#10b5b2);
+  color:#fff;
+  border-radius:30px;
+  padding:1.5rem;
+  box-shadow:0 25px 60px rgba(13,78,134,.22);
+}
+.mini-kicker{
+  display:inline-flex;
+  padding:.4rem .75rem;
+  border-radius:999px;
+  background:rgba(255,255,255,.16);
+  font:700 .8rem "Poppins",sans-serif;
+  margin-bottom:.9rem;
+}
+.coverage-side h3{
+  margin:.2rem 0 .7rem;
+  font:800 1.8rem/1.1 "Poppins",sans-serif;
+  color:#fff;
+}
+.coverage-side p{color:#eaf8ff;margin:0 0 1rem}
+.coverage-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.75rem;
+}
+.coverage-tags span{
+  padding:.7rem .95rem;
+  border-radius:999px;
+  background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.15);
+  font:700 .9rem "Poppins",sans-serif;
+}
+.hero-badges span,.mini-includes span,.coverage-tags span,.map-list span{text-wrap:nowrap}
+.highlight-grid article p,.benefit-grid article p,.state-card p,.quote-card p{font-size:.97rem}
+.projects-copy p,.section-heading p{max-width:60ch}
