@@ -29,6 +29,7 @@
         </div>
       </a>
       <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="menu-overlay"></div>
       <nav class="main-nav">
         <a href="index.html">Inicio</a>
         <a href="pages/cursos.html">Cursos</a>
@@ -37,7 +38,7 @@
         <a href="pages/galeria.html">Galería</a>
         <a href="pages/nosotros.html">Nosotros</a>
         <a href="pages/contacto.html">Contacto</a>
-        <a class="btn btn-sm pulse-btn" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar información</a>
+        <a class="btn btn-sm pulse-btn" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20sus%20cursos%20y%20capacitaciones%20av%C3%ADcolas." target="_blank" rel="noopener">Solicitar información</a>
       </nav>
     </div>
   </header>
@@ -107,7 +108,7 @@
 
 
 
-    <section class="impact-strip premium-strip">
+    <section class="impact-strip premium-strip reveal">
       <div class="container trust-badges">
         <div><span>🎥</span><strong>Cursos en línea y presenciales</strong></div>
         <div><span>🧾</span><strong>Certificado con QR y folio</strong></div>
@@ -116,7 +117,7 @@
       </div>
     </section>
 
-    <section class="section section-layer">
+    <section class="section section-layer reveal">
       <div class="container split-highlight">
         <div>
           <span class="section-tag">Autoridad de marca</span>
@@ -131,7 +132,7 @@
       </div>
     </section>
 
-    <section class="section section-alt plus-benefits">
+    <section class="section section-alt plus-benefits reveal">
       <div class="container">
         <div class="section-heading">
           <span class="section-tag">¿Qué incluye tu inscripción?</span>
@@ -149,7 +150,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-heading">
           <span class="section-tag">Cursos especializados</span>
@@ -180,7 +181,7 @@
           </div>
           <div class="program-actions">
             <a class="btn btn-sm" href="pages/curso-postura-libre-jaula.html">Ver más detalles</a>
-            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979" target="_blank" rel="noopener">Solicitar informes</a>
+            <a class="btn btn-sm btn-secondary" href="https://wa.me/522361138979?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20proyectos%20av%C3%ADcolas." target="_blank" rel="noopener">Solicitar informes</a>
           </div>
         </div>
       </article>
@@ -288,7 +289,7 @@
       </div>
     </section>
 
-    <section class="section projects-banner">
+    <section class="section projects-banner reveal">
       <div class="container projects-showcase">
         <div class="projects-copy">
           <span class="section-tag tag-dark">Desarrollo de proyectos</span>
@@ -313,7 +314,7 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt reveal">
       <div class="container">
         <div class="section-heading">
           <span class="section-tag">Mapa de cobertura</span>
@@ -347,7 +348,7 @@
       </div>
     </section>
 
-    <section class="section gallery-states">
+    <section class="section gallery-states reveal">
       <div class="container">
         <div class="section-heading">
           <span class="section-tag">Galería por estados</span>
@@ -375,6 +376,35 @@
           <article class="quote-card"><p>“La nueva propuesta visual deja mucho más claro que Ingeniería Avícola no solo imparte cursos, sino que tiene presencia, experiencia y valor real.”</p><strong>Enfoque de marca</strong></article>
           <article class="quote-card"><p>“Ver los beneficios de inscripción, el mapa y la galería por estados hace que la página transmita mucho más autoridad.”</p><strong>Percepción profesional</strong></article>
           <article class="quote-card image-card"><img src="assets/img/testimonios/testimonio-1.png" alt="Opinión"></article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section section-alt reveal">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Preguntas frecuentes</span>
+          <h2>Resuelve dudas rápidamente</h2>
+          <p>Información clara para facilitar la decisión del cliente.</p>
+        </div>
+        <div class="faq-list">
+          <article class="faq-item">
+            <button class="faq-question">¿Los cursos son en línea o presenciales?<span>+</span></button>
+            <div class="faq-answer"><p>Contamos con cursos en línea y también capacitaciones presenciales en estados seleccionados de México.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question">¿Incluyen certificado?<span>+</span></button>
+            <div class="faq-answer"><p>Sí, varios cursos incluyen certificado con QR y folio, además de materiales de apoyo y acompañamiento.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question">¿Puedo pedir informes por WhatsApp?<span>+</span></button>
+            <div class="faq-answer"><p>Sí. La página incluye accesos directos a WhatsApp para cursos, asesoría técnica y proyectos avícolas.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question">¿También desarrollan proyectos avícolas?<span>+</span></button>
+            <div class="faq-answer"><p>Sí, brindamos asesoría y acompañamiento para proyectos avícolas con enfoque técnico y productivo.</p></div>
+          </article>
         </div>
       </div>
     </section>
@@ -432,5 +462,9 @@
     <img src="assets/img/iconos/whatsapp.svg" alt="WhatsApp">
   </a>
   <script src="js/script.js"></script>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Cerrar">×</button><img src="" alt=""></div>
 </body>
 </html>
